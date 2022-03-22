@@ -63,8 +63,8 @@ plot <- is_babyname %>%
 ## Adding thmes
 
 mohammed <- plot + theme(
-  plot.title = element_text(size = 20, face = "bold",family = "Bangers", color = "black"),
-  plot.subtitle = element_text(size = 12, face = "italic", colour = "black", family = "El Messiri",lineheight = .5),
+  plot.title = element_text(size = 26, face = "bold",family = "Bangers", color = "black"),
+  plot.subtitle = element_text(size = 17, face = "italic", colour = "black", family = "El Messiri",lineheight = .5),
   plot.title.position = "plot",
   axis.ticks = element_blank(),
   axis.title = element_text(face = "bold", family = "Playfair Display"),
@@ -72,7 +72,7 @@ mohammed <- plot + theme(
   panel.grid.minor =element_blank(),
   legend.position = c(0.5,0.94),
   legend.background = element_rect(fill = "transparent", colour = "transparent"),
-  legend.text = element_text(size = 10, family = "Merienda One", face = "bold")) +
+  legend.text = element_text(size = 12, family = "Merienda One", face = "bold")) +
   
   guides(color = guide_legend(direction = "horizontal",
                               title = NULL,
